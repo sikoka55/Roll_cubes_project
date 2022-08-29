@@ -1,48 +1,35 @@
 import random
 
 
+def prnt_answer(cube: int):
+    print('Ось твій результат:')
+    print('*' * 9)
+    print(random.randint(1, cube))
+    print('*' * 9)
+
+
+
 def roll(answer):
     if answer == 'd4':
-        print('Ось твій результат:')
-        print('*' * 9)
-        print(random.randint(1, 5), sep='')
-        print('*' * 9)
+        prnt_answer(4)
 
     elif answer == 'd6':
-        print('Ось твій результат:')
-        print('*' * 9)
-        print(random.randint(1, 7), sep='')
-        print('*' * 9)
+        prnt_answer(6)
 
     elif answer == 'd8':
-        print('Ось твій результат:')
-        print('*' * 9)
-        print(random.randint(1, 9), sep='')
-        print('*' * 9)
+        prnt_answer(8)
 
     elif answer == 'd10':
-        print('Ось твій результат:')
-        print('*' * 9)
-        print(random.randint(1, 11), sep='')
-        print('*' * 9)
+        prnt_answer(10)
 
     elif answer == 'd12':
-        print('Ось твій результат:')
-        print('*' * 9)
-        print(random.randint(1, 13), sep='')
-        print('*' * 9)
+        prnt_answer(12)
 
     elif answer == 'd20':
-        print('Ось твій результат:')
-        print('*' * 9)
-        print(random.randint(1, 21), sep='')
-        print('*' * 9)
+        prnt_answer(20)
 
     elif answer == 'd100':
-        print('Ось твій результат:')
-        print('*' * 9)
-        print(random.randint(1, 101), sep='')
-        print('*' * 9)
+        prnt_answer(100)
 
 
 print('Привіт,мандрівник!')
