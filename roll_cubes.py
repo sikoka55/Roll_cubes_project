@@ -1,7 +1,7 @@
 import random
 
 
-def roll (answer):
+def roll(answer):
     if answer == 'd4':
         print('Ось твій результат:')
         print('*' * 9)
